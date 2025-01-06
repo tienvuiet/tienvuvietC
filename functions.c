@@ -75,10 +75,10 @@ void inputAdmin() {
     printf("                                LOGIN\n");
     int loginSuccess = 0; 
     while (!loginSuccess) { 
-        printf("                              Enter email: ");
+        printf("                              Enter email(tienvuviet@gmail.com): ");
         scanf("%s", email); 
         fflush(stdin); 
-        printf("                              Enter password: ");
+        printf("                              Enter password(151906): ");
         scanf("%s", password); 
         fflush(stdin);
         if (verifyAdminCredentials(email, password)) {
